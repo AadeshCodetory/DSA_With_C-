@@ -82,16 +82,33 @@ using namespace std;
 //   cout<<"sum of array element is "<<sum<<endl;
 //     return 0;
 // }
-int main(){
-    int smalest =INT8_MIN;
-    int nums[5];
-    for(int i=0; i<5; i++){
-        cin>>nums[i];
-    }
-    for(int i=0; i<5; i++){
-        if(nums[i]>smalest){
-            smalest=nums[i];
-        }
-    }
-    cout<<"The Largest value is "<< smalest;
-}
+
+// ques: find the smallest value....
+// int main(){
+//     int smalest =INT8_MAX;
+//     int nums[5];
+//     for(int i=0; i<5; i++){
+//         cin>>nums[i];
+//     }
+//     for(int i=0; i<5; i++){
+//         if(nums[i]<smalest){
+//             smalest=nums[i];
+//         }
+//     }
+//     cout<<"The Smallest value is "<< smalest;
+// }
+
+// ques: find the Largest value....
+// int main(){
+//     int largest =INT8_MIN;
+//     int nums[5];
+//     for(int i=0; i<5; i++){
+//         cin>>nums[i];
+//     }
+//     for(int i=0; i<5; i++){
+//         if(nums[i]>largest){
+//             largest=nums[i];
+//         }
+//     }
+//     cout<<"The largest value is "<< smalest;
+// }
